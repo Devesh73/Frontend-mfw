@@ -1,0 +1,99 @@
+/* NINValidation.css */
+.nin-validation-body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./resources/background1.png');
+  background-attachment:center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -30px;
+  margin-left: -10px;
+  margin-bottom: -40px;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.nin-validation .container {
+  margin-top: 100px; /* Adjust this value to ensure content is not hidden behind the fixed header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nin-validation .validation-title {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  margin-left: 75px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 2000px;
+}
+
+.nin-validation .nin-validation {
+  background: rgba(234, 229, 229, 0.5); /* Set background color with opacity */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: #ffffff;
+  border-color: #ffffff;
+}
+
+.nin-validation .nin-label {
+  display: block;
+  color: #333;
+  text-align: left;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 10px;
+  font-weight: 700; /* Adjust font weight as needed */
+}
+
+.nin-validation .nin-validation input {
+  display: block;
+  margin-left: 10px;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.nin-validation .nin-validation button {
+  padding: 10px 30px;
+  background:linear-gradient(to bottom right, rgb(227, 47, 47), rgb(255, 123, 0),rgb(231, 72, 72));
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.nin-validation .nin-validation button:hover {
+  background-color: #62646d;
+}
+
+.nin-validation .error {
+  color: red;
+  margin-top: 20px;
+  font-weight: 200;
+}
